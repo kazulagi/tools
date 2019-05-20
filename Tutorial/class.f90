@@ -12,8 +12,9 @@ module UserClass
 
 contains
 
-subroutine Init_User(obj)
+subroutine Init_User(obj,InNum)
     class(User_),intent(inout)::obj
+    integer,optional,intent(in)::InNum
 
     ! constructor
     obj%hand = 0
@@ -51,8 +52,10 @@ program main
     implicit none
 
     type(User_) :: Fox
+    
 
     call Fox%Init()
+
     call Fox%setHand()
     call Fox%showHand()
 
