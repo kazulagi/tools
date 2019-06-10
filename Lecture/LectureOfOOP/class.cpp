@@ -9,7 +9,6 @@ class User {
         void Init();
         void setHand();
         void showHand();
-
 };
 
 void User::Init(){
