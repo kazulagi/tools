@@ -32,7 +32,7 @@ for i in range(width):
 
         #outfile.write(str(i)+"  "+str(j)+"  "+str(R)+"  "+str(G)+"  "+str(B)+"\n" )
         #er=R+G+B
-        if int(G)*2 >= int(R)+int(B)           :
+        if int(G) + int(R) + int(B) > 200*3          :
                 count=count+1
         #    python_buffer.write(str(i)+'\t')
         #    itr=itr+1
