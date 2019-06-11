@@ -2,16 +2,25 @@
 
 #### Licence is GPL v3.
 
-#### ダウンロード方法:
+#### ダウンロード方法：
 
-'''
-
+(for Linux/iOS)
+~~~
 git clone https://gitlab.com/kazulagi/sicrof_public.git
+~~~
 
-'''
+### アップデート方法：
 
-#### AgriPy :: 農家向けIoTアプリケーション群
-- ラズパイを用いた圃場計測アプリケーション群を開発中  
+(for Linux/iOS)
+~~~
+
+sudo chmod +x update
+./update
+~~~
+
+#### AgriPy :: IoT-apprications for farmers.(農家向けIoTアプリケーション群)
+
+- Field monitoring applications for RaspberryPi is now developed(ラズパイを用いた圃場計測アプリケーション群を開発中)  
 
 #### Lecture :: Lecture for Object-riented Programming (OOP) for Finite Element Analysis.
 
