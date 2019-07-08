@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Repository path : "
+read repath
+echo "Import Name of docker-container"
+read dockername
+docker image build $repath -t $dockername
