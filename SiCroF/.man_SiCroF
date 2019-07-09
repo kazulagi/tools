@@ -1,0 +1,10 @@
+SiCroF >> Fortran Interactive mode for Linux & OS X... 
+Here, fortran script runs with  SiCroF-kernel.
+
+Commands:
+
+cpu-core    : Change number of cpu-core
+exit        : Exit fortran-inreractive mode
+install     : Install all componets
+man         : Mannual
+

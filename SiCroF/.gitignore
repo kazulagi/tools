@@ -1,0 +1,9 @@
+RESULTS/*
+debug/*
+GUIClass/Hello.js
+*.pos
+*.msh
+*.scf
+*.o
+*.mod
+*.out

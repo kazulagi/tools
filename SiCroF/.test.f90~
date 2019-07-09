@@ -1,0 +1,15 @@
+program main
+    use MPIClass
+
+    type(MPI_) :: mpiobj
+    integer :: From
+    real(8)::val
+
+    From=0
+    call mpiobj%start()
+    val=dble(mpiobj%MyRank)
+    call mpiobj%Bcast(From=From,val=val)
+    print *, mpiobj%MyRank,"/",mpiobj%petot,val
+    call mpiobj%end()
+
+end program main
