@@ -1,0 +1,50 @@
+#!/bin/sh -eu
+
+echo "-----------------"
+echo "    "
+echo "    "
+echo "SiCroF is installing ..."
+echo "(c) Haruka Tomobe 2019 All Rights Reserved"
+echo "    "
+echo "    "
+echo "-----------------"
+echo "  "
+echo "  "
+echo "  >>>"
+echo "  "
+echo "------------------------"
+echo "gcc --version"
+gcc --version
+echo "------------------------"
+echo "gfortran --version"
+gfortran --version
+#echo "------------------------"
+#echo "gmsh --version"
+#gmsh --version
+echo "------------------------"
+echo "mpifort --version"
+mpifort --version
+echo "------------------------"
+echo "OpenCL --version"
+clinfo --version
+sudo apt install ocl-icd-libopencl1 opencl-headers clinfo ocl-icd-opencl-dev beignet
+#echo "------------------------"
+#echo "python3 --version"
+#python3 --version
+#echo "------------------------"
+#echo "pip3 --version"
+#pip3 --version
+#echo "------------------------"
+#pip3 install pillow
+#echo "------------------------"
+#pip3 install numpy
+#echo "------------------------"
+#pip3 install scipy
+#echo "------------------------"
+#pip3 install matplotlib
+#echo "------------------------"
+#pip3 install tensorflow
+#echo "------------------------"
+
+echo "All pacages are ready. [ok]"
+# Compilation of low-level classes
