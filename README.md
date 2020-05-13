@@ -1,5 +1,14 @@
 # Contents of SiCroF_pubric presented by kazulagi
 
+
+### Try on Google Colab
+
+```
+!git clone https://github.com/kazulagi/tools.git
+%cd tools
+```
+
+
 #### Licence is GPL v3.
 
 #### ダウンロード方法：
